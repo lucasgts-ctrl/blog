@@ -1,6 +1,6 @@
 body{
     color:white;
-    background-color: black;
+    background-color: darkslateblue;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -22,7 +22,7 @@ header img{
     width:150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid white;
+    border: 5px solid purple;
 }
 .center{
     text-align: center;
@@ -33,12 +33,12 @@ header img{
     margin:0px; 
 }
 h1{
-    color:purple;
+    color: black;
 }
 
 footer img{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
 }
 
 footer{
@@ -56,5 +56,5 @@ footer p{
 }
 
 nav a:hover{
-    color:purple;
+    color: darkblue;
 }
