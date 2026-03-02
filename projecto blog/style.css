@@ -23,7 +23,7 @@ header img{
     width:150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid purple;
+    border: 5px solid rgba(128, 0, 128, 0.897);
 }
 .center{
     text-align: center;
@@ -34,7 +34,14 @@ header img{
     margin:0px; 
 }
 h1{
-    color: purple;
+    color: rgba(128, 0, 128, 0.815);
+    font-family: "Cairo", sans-serif;
+    font-size: 25px;
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-family: "Cairo", sans-serif;
+    font-size: 20px;
 }
 
 footer img{
