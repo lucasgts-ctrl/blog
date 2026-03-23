@@ -13,16 +13,14 @@ ul {
     padding: 20px;
 }
 
-a {
-    text-decoration: none;
-    color:white;
+p {
+    text-align: justify;
 }
-
 header img{
     width:150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid rgba(128, 0, 128, 0.897);
+    border: 5px solid rgba(45, 0, 128, 0.897);
 }
 .center{
     text-align: center;
@@ -31,16 +29,6 @@ header img{
 .container{
     padding:0px 50px;
     margin:0px; 
-}
-h1{
-    color: rgba(128, 0, 128, 0.815);
-    font-family: "Cairo", sans-serif;
-    font-size: 25px;
-}
-h2{
-    color: rgb(255, 255, 255);
-    font-family: "Cairo", sans-serif;
-    font-size: 20px;
 }
 
 footer img{

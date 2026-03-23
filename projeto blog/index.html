@@ -10,23 +10,33 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
 </head>
-
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <div class="container">
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">INÍCIO</a>
-                </li>
-                <li>
-                    <a href="projects.html">SOBRE MIM</a>
-                </li>
-                <li>
-                    <a href="contact.html">FALE COMIGO</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Sobre Mim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contato</a>
+                    </ul>
+                </div>
+            </div>
         </nav>
+
         <header>
             <div class="center">
                 <img src="./img/perfil.png">
@@ -41,16 +51,14 @@
                 <p>
                     Busco oportunidades na área de tecnologia e programação, com interesse em desenvolver sistemas e
                     ampliar constantemente meus conhecimentos na área. Possuo experiência em atendimento ao público,
-                    trabalho em equipe e controle emocional em situações de pressão, contribuindo para um ambiente
-                    produtivo e colaborativo.
+                    trabalho em equipe, contribuindo para um ambiente produtivo e colaborativo.
                 </p>
             </section>
 
             <section>
                 <h2>FORMAÇÃO</h2>
                 <p>
-                    Cursando o 1º semestre de Sistemas de Informação no ensino superior. Aprendizado voltado para lógica de programação, algoritmos e estruturas de dados, fundamentos importantes para o desenvolvimento de
-                    software.
+                    Cursando o 1º semestre de Sistemas de Informação no ensino superior. Aprendizado voltado para lógica de programação, algoritmos e estruturas de dados, fundamentos importantes para o desenvolvimento de software.
                 </p>
             </section>
 
