@@ -1,18 +1,9 @@
-body{
-    color:white;
+*{      
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
     background-color: black;
-    font-family: "Cairo", sans-serif;
 }
-
-ul {
-    list-style-type: none;
-    display:flex;
-    justify-content: space-between;
-    list-style-type: none;
-    align-items:center;
-    padding: 20px;
-}
-
 p {
     text-align: justify;
 }
@@ -32,7 +23,7 @@ header img{
 }
 
 footer img{
-    height: 35px;
+    height: 40px;
 }
 
 footer{
@@ -47,8 +38,4 @@ footer a{
 
 footer p{
     margin-top : 10px;
-}
-
-nav a:hover{
-    color: darkgray;
 }
