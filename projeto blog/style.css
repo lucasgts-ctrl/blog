@@ -6,9 +6,14 @@
 }
 
 :root{
-    --cor-fundo: #16161a;
+    --cor-fundo: #343438;
     --cor-texto: #fffffe;
     --cor-nav:#7f5af0;
+    --cor--back:#000000;
+}
+/*-------------welcome page*/
+.grid{
+    display:grid;
 }
 
 /*-------------nav*/
@@ -34,7 +39,7 @@ header img{
     border:var(--cor-nav)solid 5px; 
 }
 
-/*Footer -----------------*/
+/*footer-----------------*/
 footer{
     display :flex;
     justify-content: center;
