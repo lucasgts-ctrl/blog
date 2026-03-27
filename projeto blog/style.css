@@ -11,12 +11,8 @@
     --cor-nav:#7f5af0;
     --cor--back:#000000;
 }
-/*-------------welcome page*/
-.grid{
-    display:grid;
-}
-
 /*-------------nav*/
+
 .fundo{
     background-color: var(--cor-fundo);
     color:var(--cor-texto);
@@ -31,7 +27,6 @@
 .fundo a:hover{
     color:var(--cor-nav);
 }
-
 /*img--------------*/
 header img{
     width:200px;
